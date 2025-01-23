@@ -1,0 +1,22 @@
+{
+  "name": "bk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start":"node index",
+  "dev": "DEVELOPMENT=true nodemon index"
+  },
+
+  "type": "module",
+
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/lib-dynamodb": "^3.733.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "serverless-http": "^3.2.0"
+  }
+}
