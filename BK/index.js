@@ -24,7 +24,7 @@ app.get("/", async (req, res) => {
 });
 
 app.post("/task", async (req, res) => {
-    res.send("Hello World!");
+    res.send("Hello Golu!");
   try {
     const task = await createTasks(task)
     res.send(task.Items);
