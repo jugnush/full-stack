@@ -37,7 +37,7 @@ function AddTaskForm({fetchTasks}) {
   </Grid>
   <Grid item xs={4}>
 
-  <Button variant="contained" disabled={!task.length} marginLeft={2} onClick={handleClick}>Add Item</Button>
+  <Button variant="contained" disabled={!task.length} marginLeft={2} onClick={addNewTask}>Add Item</Button>
   </Grid>
     
       </Grid>
